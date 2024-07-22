@@ -8,8 +8,6 @@ const clickHandler = (event) => {
   console.log("handling event on click");
 };
 
-
 const sayHello = (name) => {
- console.log("hello");
-
-}
+  console.log("hello, from local repo");
+};
