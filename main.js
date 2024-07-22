@@ -7,3 +7,7 @@ function test() {
 const clickHandler = (event) => {
   console.log("handling event on click");
 };
+
+const handleSignup = (event) => {
+  console.log("handling signup....!");
+};
