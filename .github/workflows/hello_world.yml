@@ -1,0 +1,24 @@
+name: hello_world
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches: ['main']
+# jobs
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get repo code
+        uses: actions/checkout@v4
+      - name: say hello world
+        run: echo "hello world"
+        shell: bash
+  hell-abobakr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say abobakr
+        run: echo "hello abobakr"
